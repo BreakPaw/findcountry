@@ -2,7 +2,9 @@
 A simple and responsive web application to search and explore country information using the REST Countries API. Built with pure HTML, CSS, and JavaScript.
 
 🚀 Features
+
 🔎 Search country by name
+
 🌐 Fetch real-time data from REST Countries API
 🏳️ Display country flag
 🏙 Show capital city
