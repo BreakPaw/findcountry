@@ -5,20 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FindCountry</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav>
-      <img src="/assets/logo.png" alt="">
+      <img src="/assets/Group 1.png" alt="">
       <ul>
         <li>
-          <a href=""></a>
+          <a href="#">Countries</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="#">Details</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Explore</a>
         </li>
       </ul>
       <div class="auth">
@@ -27,5 +31,326 @@
       </div>
     </nav>
   </header>
+  <main>
+    <section class="hero">
+        <div class="column">
+          <h1>Find any country in the world</h1>
+          <p>Search through detailed information about nations across the globe. Discover geography ,<br> culture, and facts that matter.</p>
+          <div class="btn-hero">
+             <button class="srch">Search</button>
+             <button class="brws">Browse</button>
+          </div>
+        </div>
+        <!-- <div class="findSearch">
+          
+        </div> -->
+        <div class="findSearch">
+          <!-- Floating Flags -->
+          <div class="flags">
+            <svg class="flag f1" viewBox="0 0 1200 800">
+              <path fill="#005BBB" d="M0 0h1200v800H0z"/>
+              <path fill="#FFD500" d="M0 400h1200v400H0z"/>
+            </svg>
+
+            <svg class="flag f2" viewBox="0 0 900 600">
+              <path fill="#FFF" d="M0 0h900v600H0z"/>
+              <path fill="#0032A0" d="M0 0h300v450H0z"/>
+              <path fill="#DA291C" d="M0 300h900v300H0z"/>
+            </svg>
+
+            <svg class="flag f3" viewBox="0 0 54 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M0 0h54v36H0z"/><path d="M0 0h54v18H0z" fill="#ed2939"/><circle cx="11.405" cy="9" r="6.625"/><circle cx="14.405" cy="9" r="6.625" fill="#ed2939"/><path id="a" d="m15.03 3.475-1.014 3.12 2.655-1.928h-3.282l2.655 1.929z"/><g id="b"><use xlink:href="#a" transform="rotate(72 15.03 9)"/><use xlink:href="#a" transform="rotate(216 15.03 9)"/></g><use xlink:href="#b" transform="rotate(72 15.03 9)"/></svg>
+
+            <svg class="flag f4" viewBox="0 0 630 360" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#da0000" d="M0 0h630v360H0z"/><path fill="#fff" d="M0 0h630v240H0z"/><path fill="#239f40" d="M0 0h630v120H0z"/><g transform="translate(8.4 100.4)"><g id="e"><g id="c" fill="none" stroke="#fff" stroke-width="2"><path id="b" d="M0 1h26M1 10V5h8v4h8V5h-5M4 9h2m20 0h-5V5h8m0-5v9h8V0m-4 0v9" transform="scale(1.4)"/><path id="a" d="M0 7h9m1 0h9" transform="scale(2.8)"/><use xlink:href="#a" y="120"/><use xlink:href="#b" y="145.2"/></g><g id="d"><use xlink:href="#c" x="56"/><use xlink:href="#c" x="112"/><use xlink:href="#c" x="168"/></g></g><use xlink:href="#d" x="168"/><use xlink:href="#e" x="392"/></g><g fill="#da0000" transform="matrix(45 0 0 45 315 180)"><g id="f"><path d="M1.016-.016a.78.78 0 0 1-.414.687A1.004 1.004 0 0 0 .444-.741L.4-.775a.776.776 0 0 1 .617.76"/><path d="M.656-.047A.927.927 0 0 1-.557.834l.05.001A1.016 1.016 0 0 0 .333-.749a.92.92 0 0 1 .322.702M.262-.944A.142.142 0 0 1 0-.869l-.017-.017L0-.969A.132.132 0 0 0 .25-1a.14.14 0 0 1 .012.056"/><path d="M.12-.714A.3.3 0 0 1 0-.81l-.05.794L0 1 .079.892l.01-.25L.1.38.101.348V.335L.105.281.111.117l.005-.132.002-.039.002-.048zM0-.55Zm0 .865Z"/></g><use xlink:href="#f" transform="scale(-1 1)"/></g></svg>
+
+            <svg class="flag f5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#07038D" viewBox="-45 -30 90 60"><path fill="#FFF" d="M-45-30h90v60h-90z"/><path fill="#FF6820" d="M-45-30h90v20h-90z"/><path fill="#046A38" d="M-45 10h90v20h-90z"/><circle r="9.25"/><circle r="8" fill="#FFF"/><circle r="1.6"/><g id="d"><g id="c"><g id="b"><g id="a"><path d="m0-8 .3 4.814L0-.802l-.3-2.384z"/><circle cy="-8" r=".35" transform="rotate(7.5)"/></g><use xlink:href="#a" transform="scale(-1)"/></g><use xlink:href="#b" transform="rotate(15)"/></g><use xlink:href="#c" transform="rotate(30)"/></g><use xlink:href="#d" transform="rotate(60)"/><use xlink:href="#d" transform="rotate(120)"/></svg>
+
+            
+            <svg class="flag f6" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ><path fill="#EE1C25" d="M0 0h900v600H0"/><g transform="matrix(3 0 0 3 150 150)"><path id="a" fill="#FF0" d="m0-30 17.634 54.27-46.166-33.54h57.064l-46.166 33.54Z"/></g><use xlink:href="#a" transform="rotate(23.036 2.784 766.082)"/><use xlink:href="#a" transform="rotate(45.87 38.201 485.396)"/><use xlink:href="#a" transform="rotate(69.945 29.892 362.328)"/><use xlink:href="#a" transform="rotate(20.66 -590.66 957.955)"/></svg>
+
+            
+            <svg class="flag f7" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 6 3"><path fill="#009639" d="M0 0h6v3H0z"/><path fill="#FFF" d="M0 0h6v2H0z"/><path d="M0 0h6v1H0z"/><path fill="#ED2E38" d="m0 0 2 1.5L0 3Z"/></svg>
+
+            <svg class="flag f8" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 90000 60000"><path fill="#c1272d" d="M0 0h90000v60000H0z"/><path fill="none" stroke="#006233" stroke-width="1426" d="m45000 17308 7460 22960-19531-14190h24142L37540 40268z"/></svg>
+
+          </div>
+          <div class="searchContent">
+            <h1>Search Any Country Instantly</h1>
+            <p>Enter a country name to explore detailed information.</p>
+
+            <div class="searchBox">
+              <input type="text" placeholder="Enter country name..." />
+              <button>Search</button>
+            </div>
+            <div id="result"></div> 
+          </div>
+        </div>
+
+    </section>
+    <section class="content">
+      <div class="textCon">
+        <p>Explore</p>
+        <h2>Everything you need to know about <br> countries</h2>
+        <p>Access comprehensive information organized for easy discovery and understanding.</p>
+      </div>
+      <div class="imgCon">
+        <div class="contentCon">
+          <img src="/assets/mapil.webp" alt="">
+          <h2>Quick Search</h2>
+          <p>Find any nation instantly with our powerful search tool.</p>
+        </div>
+        <div class="contentCon">
+          <img src="/assets/2748315_Freepik.webp" alt="">
+          <h2>Detailed Profile</h2>
+          <p>Learn about geography, culture, economy, and history in depth.</p>
+        </div>
+        <div class="contentCon">
+          <img src="/assets/15546.webp" alt="">
+          <h2>Compare Nations</h2>
+          <p>Place countries side by side to see differences and similarities.</p>
+        </div>
+      </div>
+      <div class="btnCon">
+        <button class="expBtn">Explore</button>
+        <button class="arwBtn">Arrow ></button>
+      </div>
+    </section>
+    <section class="guide">
+      <div class="guideCtn">
+        <div class="leftCtn">
+          <div class="hmCtn">
+            <img src="/assets/Vector.png" alt="">
+            <div class="textCtn">
+              <h5>Start searching</h5>
+              <p>Enter a country name or browse our complete list to begin your exploration today.</p>
+            </div>
+          </div>
+          <div class="hmCtn">
+            <img src="/assets/wht.png" alt="">
+            <div class="textCtn">
+              <h5>View Details</h5>
+              <p>Each country page contains maps, statistics, and information you need to understand it.</p>
+            </div>
+          </div>
+          <div class="hmCtn">
+            <img src="/assets/wht2.png" alt="">
+            <div class="textCtn">
+              <h5>Make comparisons</h5>
+              <p>Select multiple countries to compare their features and discover what sets them apart.</p>
+            </div>
+          </div>
+          <div class="btnHm">
+            <button class="expBtn">Explore</button>
+            <button class="arwBtn">Arrow ></button>
+          </div>
+        </div>
+        <div class="rightCtn">
+          <img src="/assets/Placeholder Image.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="exploring">
+      <div class="exploreCtn">
+        <h1>Begin Exploring <br>Today</h1>
+        <p>Search for any nation and uncover the facts that shape our world.</p>
+        <div class="btnExplore">
+          <button class="okBtn">Search</button>
+          <button class="notBtn">Search</button>
+        </div>
+      </div>
+    </section>
+    <section class="question">
+      <div class="quesText">
+        <h1>Questions</h1>
+        <p>Find answers about using our country information database.</p>
+      </div>
+      <div class="quesCon">
+        <div class="quesGap">
+          <div class="quesFlex">
+            <img src="/assets/Vector.png" alt="">
+            <p class="headQues">How do I search?</p>
+            <p class="textQues">Type a country name in the search bar or select from the complete list on the Countries page.</p>
+          </div>
+          <div class="quesFlex">
+            <img src="/assets/Group.png" alt="">
+            <p class="headQues">What information is included?</p>
+            <p class="textQues">Each country profile contains geography, culture, economy, history, and key statistics.</p>
+          </div>
+          <div class="quesFlex">
+            <img src="/assets/wht.png" alt="">
+            <p class="headQues">Can I compare countries?</p>
+            <p class="textQues">Yes, select multiple nations to view them side by side and see their differences.</p>
+          </div>
+        </div>
+        <div class="quesGap">
+          <div class="quesFlex">
+            <img src="/assets/Group.png" alt="">
+            <p class="headQues">Is the data current?</p>
+            <p class="textQues">We update our information regularly to reflect the latest available data.</p>
+          </div>
+          <div class="quesFlex">
+            <img src="/assets/social1.png" alt="">
+            <p class="headQues">Can I share results?</p>
+            <p class="textQues">You can share country pages directly with others through your browser.</p>
+          </div>
+          <div class="quesFlex">
+            <img src="/assets/Vector.png" alt="">
+            <p class="headQues">Is there a mobile app?</p>
+            <p class="textQues">Our website is fully responsive and works well on all devices.</p>
+          </div>
+        </div>
+      </div>
+      <div class="helpSec">
+        <h4>Need more help?</h4>
+        <p class="pSec">Reach out to us anytime with your questions.</p>
+        <button>Contact</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="icon">
+      <div class="iconCon">
+        <div>
+          <img src="/assets/Group 1.png" alt="">
+        </div>
+        <ul>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Countries</a>
+          </li>
+          <li>
+            <a href="">Details</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+          <li>
+            <a href="">Explore</a>
+          </li>
+        </ul>
+        <div class="iconSoc">
+          <img src="/assets/linkedin.png" alt="">
+          <img src="/assets/instagram.png" alt="">
+          <img src="/assets/youtube.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="botLast">
+        <ul>
+          <li>
+            <a href="">© 2025 Organization Website. All rights reserved.</a>
+          </li>
+          <li>
+            <a href="">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="">Terms of Service</a>
+          </li>
+          <li>
+            <a href="">Cookies Settings</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Popup Modal -->
+  <div class="modal" id="modal">
+      <span class="close" id="closeBtn">&times;</span>
+      <div id="modalContent">
+        
+      </div>
+  </div>
+  <script>
+    const searchBtn = document.querySelector('.searchBox button');
+    const input = document.querySelector('.searchBox input');
+    const modal = document.getElementById('modal');
+    const overlay = document.getElementById('overlay');
+    const closeBtn = document.getElementById('closeBtn');
+    const result = document.getElementById('result');
+    const modalContent = document.getElementById('modalContent');
+    // const countryName = document.getElementById('countryName');
+    // const countryInfo = document.getElementById('countryInfo');
+
+    searchBtn.addEventListener('click', () => {
+      const countryName = input.value.trim();
+      result.innerHTML = "";
+
+      if (countryName.length === 0) {
+        result.innerHTML = "<h3>The input field cannot be empty!</h3>";
+        return;
+      }
+
+      let finalURL = `https://restcountries.com/v3.1/name/${countryName}?fullText=true`
+      console.log(finalURL);
+      fetch(finalURL).then((response)=> {
+        if (!response.ok){
+          throw new Error("Country not found");
+        }
+        return response.json();
+      })
+  .then((data)=> {
+    modalContent.innerHTML = `
+      <div class="cntLeft">
+          <h2>Information About Country</h2>
+          <div class="wrapInfo">
+            <p>Capital : </p>
+            <span>${data[0].capital?.[0] || "N/A"}</span>
+          </div>          
+          <div class="wrapInfo">
+            <p>Continent : </p>
+            <span>${data[0].continents[0]}</span>
+          </div>          
+          <div class="wrapInfo">
+            <p>Population : </p>
+            <span>${data[0].population.toLocaleString()}</span>
+          </div>          
+          <div class="wrapInfo">
+            <p>Currency : </p>
+            <span>${data[0].currencies[Object.keys(data[0].currencies)].name} - ${Object.keys(data[0].currencies)[0]}</span>
+          </div>          
+          <div class="wrapInfo">
+            <p>Common Language : </p>
+            <span>${Object.values(data[0].languages).toString().split(",").join(",")}</span>
+          </div>          
+          <div class="wrapInfo">
+            <p>Timezone : </p>
+            <span>${data[0].timezones[0]}</span>
+          </div>          
+          <div class="wrapInfo">
+            <p>Maps : </p>
+            <span>${data[0].maps.googleMaps}</span>
+          </div>          
+      </div>
+      <div class="cntRight">
+        <img src="${data[0].flags.svg}">
+      </div>
+    `;
+
+    modal.classList.add('active');
+    overlay.classList.add('active');
+    
+  }).catch(()=> {
+    result.innerHTML = "<h3>Please enter a valid country name!.</h3>";
+  });
+
+     
+    });
+
+
+
+    closeBtn.addEventListener('click', () => {
+      modal.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+
+    overlay.addEventListener('click', () => {
+      modal.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+  </script>
 </body>
 </html>
